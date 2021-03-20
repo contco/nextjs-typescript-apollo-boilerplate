@@ -1,5 +1,5 @@
-import Head from 'next/head'
-import styled from "styled-components";
+import Head from 'next/head';
+import styled from 'styled-components';
 
 const Container = styled.div`
   background-color: #fafafa;
@@ -21,10 +21,10 @@ export default function Home() {
       <Head>
         <title>NextJs BoilerPlate</title>
         <link rel="icon" href="/favicon.ico" />
-      </Head> 
+      </Head>
       <Container>
         <Title>Next JS BoilerPlate</Title>
       </Container>
     </div>
-  )
+  );
 }
