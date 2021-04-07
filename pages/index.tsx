@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import styled from 'styled-components';
+import VERCEL from "../public/vercel.svg";
 
 const Container = styled.div`
   background-color: #fafafa;
@@ -24,6 +25,7 @@ export default function Home() {
       </Head>
       <Container>
         <Title>Next JS BoilerPlate</Title>
+        <VERCEL />
       </Container>
     </div>
   );

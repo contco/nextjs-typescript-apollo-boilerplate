@@ -6,3 +6,4 @@
  - **Apollo Graphql Client**
  - **Eslint and Prettier**
  - **Husky and Lint-Staged**
+ - **SVGR Webpack**
