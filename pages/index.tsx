@@ -1,6 +1,6 @@
-import Head from 'next/head';
+import type { NextPage } from 'next';
 import styled from 'styled-components';
-import VERCEL from "../public/vercel.svg";
+import VERCEL from '../public/vercel.svg';
 
 const Container = styled.div`
   background-color: #fafafa;
@@ -16,17 +16,15 @@ const Title = styled.h1`
   font-size: 80px;
 `;
 
-export default function Home() {
+const Home: NextPage = () => {
   return (
     <div>
-      <Head>
-        <title>NextJs BoilerPlate</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
       <Container>
         <Title>Next JS BoilerPlate</Title>
         <VERCEL />
       </Container>
     </div>
   );
-}
+};
+
+export default Home;
